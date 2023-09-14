@@ -1,0 +1,9 @@
+$body_color: #444444;
+$body_font: "Alegreya Sans", sans-serif;
+$header_link_color: #54be90;
+$form_box_shadow: 2px 2px 8px 0px rgba(68, 68, 68, 0.75);
+
+@mixin flex_row_center {
+  display: flex;
+  align-items: center;
+}
