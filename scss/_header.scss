@@ -1,0 +1,59 @@
+$color_head_1: #ebebeb;
+$color_head_2: #54be90;
+
+.header {
+	height: 80vh;
+	color: $color_head_1;
+	background-image: url('../img/frond-1869757_1280.png');
+	text-align: center;
+	margin-top: 20vh;
+	padding-top: 10rem;
+
+    &__title {
+	font-size: 4rem;
+	font-weight: normal;
+	margin-bottom: 0;
+    }
+
+    &__desc {
+	font-size: 3rem;
+	font-weight: normal;
+	margin-top: 0;
+    }
+
+    &__link {
+	color: $color_head_2;
+	border-bottom: 5px solid #ebebeb;
+	font-weight: bold;
+	text-decoration: none;
+    }
+
+    &__link:hover {
+	opacity: 0.8;
+    }
+}
+
+@media screen and (min-width: 320px ) {
+    .header {
+        background-repeat: no-repeat;
+        width: 100%;
+        margin-top: 0;
+        
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .header {
+        background-repeat: no-repeat;
+        width: 100%;
+        margin-top: 0;
+    }
+}
+
+@media  screen and (min-width: 1024px) {
+    .header {
+        background-repeat: no-repeat;
+        width: 100%;
+        margin-top: 0;
+    }
+}
